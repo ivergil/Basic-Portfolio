@@ -50,3 +50,13 @@ p {
 .clearing {
     clear: both;
 }
+.mylinks {
+    display: block;
+    margin: auto;
+    float: right;
+    width: 960px;
+}
+a {
+    float: right;
+    /* margin-top: 30px; */
+}
