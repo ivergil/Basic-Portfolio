@@ -1,9 +1,26 @@
 body {
     display: block;
     margin: auto;
-    width: 960px;
     background-image: url('../images/mirrored_squares_@2X.png');
 }
-header {
+.top {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #fff;
+    height: 80px;
+    border-bottom: solid rgba(0, 0, 0, 0.664) 1.2px;
+}
+.name {
+    background: #4aaaa5;
+    height: 60px;
+    margin-right: 720px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 36px;
+    padding-top: 20px;
+    color: #fff;
+}
+#area {
+    display: block;
+    margin: auto;
+    width: 960px;
 }
