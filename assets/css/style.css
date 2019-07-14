@@ -63,12 +63,13 @@ p {
     margin-right: 150px;
     margin-top: 50px;    
 }
-a {
-    float: right;
+.link-img {
+    color: white;
+    font-size: 25px;
 }
-a:hover {
+/* a:hover {
     font-style: italic;
-}
+} */
 #text {
     width: 100%;
     height: 20px;
@@ -77,6 +78,50 @@ a:hover {
     
     width: 100%
 }
+.card-deck{
+    margin-left: 50px;
+}
+.card-text{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 30px 15px 15px 15px;
+    overflow: auto;
+  }
+  
+  /* .work:nth-child(even) {
+    margin-right: 30px;
+  } */
+  
+  .work  img{
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  .img-size{
+      width: 350px;
+      height: 350px;
+  }
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    /* padding: 10px; */
+    margin-bottom: 0;
+    margin-right: 10px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
 .btn {
     background-color: #4aaaa5;
     width: 10%;
@@ -96,7 +141,11 @@ a:hover {
 .marg {
     padding: 15px;
 }
-img:hover {
+/* img:hover {
     height: 350px;
     width: 300px;
-} 
+}  */
+h2{
+    background-color: #4aaaa5;
+    color: #fff;
+}
